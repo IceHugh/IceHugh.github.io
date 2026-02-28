@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "IceHub",
+    "subtitle": "Web3 Developer | GitHub Arctic Code Vault Contributor | Focused on Bitcoin Wallet Connection & Decentralized Storage Solutions"
+  },
+  "skills": {
+    "title": "💼 Technical Skills"
+  },
+  "projects": {
+    "title": "🚀 Featured Projects"
+  },
+  "footer": {
+    "builtWith": "Built with Vite + React 19 + TypeScript",
+    "copyright": "© 2026 IceHub. Open Source Forever"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "zh": "中文"
+  },
+  "skills_data": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "blockchain": "Blockchain",
+    "tools": "Tools"
+  },
+  "projects_data": {
+    "stars": "Stars",
+    "forks": "Forks",
+    "viewRepo": "View Repository"
+  },
+  "contributionGraph": {
+    "loading": "Loading..."
+  },
+  "skills_list": {
+    "Vue.js": "Vue.js",
+    "React": "React",
+    "TypeScript": "TypeScript",
+    "Next.js": "Next.js",
+    "Bitcoin": "Bitcoin",
+    "Web3": "Web3",
+    "Flutter": "Flutter",
+    "Node.js": "Node.js"
+  },
+  "projects_list": {
+    "btc-connect": "Bitcoin wallet connector for Unisat & OKX wallets",
+    "ipfs-free": "Cross-platform IPFS upload SDK aggregator with support for Infura, Pinata and more",
+    "zincsearch-node": "Node.js SDK for ZincSearch, implemented in TypeScript with Promise support",
+    "strapi-provider-upload-ipfs-free": "Free IPFS upload provider plugin for Strapi",
+    "web3-learning": "Web3 frontend development learning path and resources",
+    "medusa-file-aliyun": "Medusa file storage plugin for Aliyun OSS",
+    "unisat-api": "Unisat API Client",
+    "smart-rename": "VSCode AI-powered rename extension"
+  },
+  "tech_stack": {
+    "TypeScript": "TypeScript",
+    "JavaScript": "JavaScript",
+    "Markdown": "Markdown"
+  }
+}

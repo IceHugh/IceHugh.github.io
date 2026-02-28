@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "IceHub",
+    "subtitle": "Web3 开发者 | GitHub Arctic Code Vault Contributor | 专注 Bitcoin 钱包连接与去中心化存储方案"
+  },
+  "skills": {
+    "title": "💼 技术技能"
+  },
+  "projects": {
+    "title": "🚀 精选项目"
+  },
+  "footer": {
+    "builtWith": "使用 Vite + React 19 + TypeScript 构建",
+    "copyright": "© 2026 IceHub. 开源永存"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "zh": "中文"
+  },
+  "skills_data": {
+    "frontend": "前端",
+    "backend": "后端",
+    "blockchain": "区块链",
+    "tools": "工具"
+  },
+  "projects_data": {
+    "stars": "星标",
+    "forks": "派生",
+    "viewRepo": "查看仓库"
+  },
+  "contributionGraph": {
+    "loading": "加载中..."
+  },
+  "skills_list": {
+    "Vue.js": "Vue.js",
+    "React": "React",
+    "TypeScript": "TypeScript",
+    "Next.js": "Next.js",
+    "Bitcoin": "Bitcoin",
+    "Web3": "Web3",
+    "Flutter": "Flutter",
+    "Node.js": "Node.js"
+  },
+  "projects_list": {
+    "btc-connect": "Bitcoin 钱包连接器，支持 Unisat & OKX 钱包",
+    "ipfs-free": "跨平台 IPFS 上传 SDK 聚合，支持 Infura、Pinata 等多个平台",
+    "zincsearch-node": "ZincSearch 的 Node.js SDK，TypeScript 实现，支持 Promise",
+    "strapi-provider-upload-ipfs-free": "Strapi 的 IPFS 免费上传 provider 插件",
+    "web3-learning": "Web3 前端开发学习路线和资源整理",
+    "medusa-file-aliyun": "Medusa 的阿里云 OSS 文件存储插件",
+    "unisat-api": "Unisat API 客户端",
+    "smart-rename": "VSCode AI 重命名扩展"
+  },
+  "tech_stack": {
+    "TypeScript": "TypeScript",
+    "JavaScript": "JavaScript",
+    "Markdown": "Markdown"
+  }
+}

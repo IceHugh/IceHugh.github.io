@@ -1,0 +1,17 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://icehugh.github.io/sitemap.xml
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1
+
+# Disallow sensitive paths
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+
+# Host directive
+Host: https://icehugh.github.io

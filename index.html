@@ -1,12 +1,74 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>github-page</title>
+    <meta name="description" content="Web3 Developer | GitHub Arctic Code Vault Contributor | 专注 Bitcoin 钱包连接与去中心化存储方案" />
+    <meta name="keywords" content="Web3, Bitcoin, React, TypeScript, Developer, Open Source, Arctic Code Vault" />
+    <meta name="author" content="IceHub" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="IceHub - Web3 Developer & Open Source Contributor" />
+    <meta property="og:description" content="Web3 Developer | GitHub Arctic Code Vault Contributor | 专注 Bitcoin 钱包连接与去中心化存储方案" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://icehugh.github.io" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="IceHub" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IceHub - Web3 Developer & Open Source Contributor" />
+    <meta name="twitter:description" content="Web3 Developer | GitHub Arctic Code Vault Contributor" />
+    <meta name="twitter:image" content="/og-image.svg" />
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://icehugh.github.io" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "IceHub",
+        "url": "https://icehugh.github.io",
+        "jobTitle": "Web3 Developer",
+        "description": "Web3 Developer | GitHub Arctic Code Vault Contributor",
+        "sameAs": [
+          "https://github.com/IceHub"
+        ],
+        "knowsAbout": ["Web3", "Bitcoin", "React", "TypeScript", "Decentralized Storage"]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "IceHub",
+        "url": "https://icehugh.github.io",
+        "description": "Web3 Developer Portfolio - IceHub"
+      }
+    </script>
+    
+    <title>IceHub - Web3 Developer & Open Source Contributor</title>
+    
+    <!-- Theme Detection Script (must be in head to prevent flash) -->
+    <script>
+      (function() {
+        const storedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
   </head>
-  <body>
+  <body class="bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors duration-300">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
