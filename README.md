@@ -1,40 +1,100 @@
-# IceHugh GitHub Page
+# IceHugh / IceHub
 
-炫酷的 Web3 风格个人主页，使用 Vite + React 19 构建。
+👋 **Hi, I'm IceHugh** (aka IceHub)
 
-## ✨ 特性
+Full-stack developer passionate about building innovative web applications and exploring Web3 technologies.
 
-- ⚛️ React 19 + TypeScript
-- ⚡ Vite 快速构建
-- 🎨 Tailwind CSS 样式
-- 🎭 Framer Motion 动画
-- 🌈 紫色渐变 Web3 主题
-- 📱 响应式设计
+---
 
-## 🚀 本地开发
+## 👨‍💻 About Me
+
+- 🌐 **Location**: China
+- 💼 **Focus**: Web Development, Full-stack Engineering
+- 🎨 **Style**: Clean, modern UI with attention to user experience
+- 🚀 **Mission**: Building open-source tools that make development easier
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Astro 5** - The web framework for content-driven websites
+- **React 19** + **TypeScript** - Type-safe component development (client-side)
+- **Tailwind CSS 4** - Utility-first styling
+- **Framer Motion 12** - Smooth animations and interactions
+- **i18next** - Internationalization support
+
+### Backend & Tools
+- **GitHub API** - Real-time data integration
+- **Node.js** - Server-side development
+- **Git** - Version control
+
+---
+
+## 📊 GitHub Stats
+
+This portfolio automatically fetches and displays:
+- 📦 Top 9 public repositories (excluding forks)
+- 💻 Most used programming languages
+- 🔥 Contribution activity graph
+- ⭐ Recent development activity
+
+*Data is fetched in real-time from GitHub API*
+
+---
+
+## 🚀 Local Development
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start dev server
 npm run dev
 
-# 构建生产版本
+# Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
-## 📦 部署到 GitHub Pages
+---
+
+## 📦 Deploy to GitHub Pages
 
 ```bash
-# 部署到 GitHub Pages
+# Build and deploy
 npm run deploy
+
+# Or use the shell script
+./deploy.sh
 ```
 
-## 📝 自定义
+---
 
-编辑 `src/App.tsx` 修改个人信息和项目展示。
+## 📝 Customize
 
-## 🌐 在线预览
+Edit files in `src/` directory:
+- `src/pages/index.astro` - Main page entry
+- `src/App.client.tsx` - Main React component
+- `src/components/` - React components
+- `src/i18n/locales/` - Translation files
+- `src/data/skills.ts` - Skills data
 
-[icehugh.github.io](https://icehugh.github.io)
+---
+
+## 🔗 Connect
+
+- 🌐 **Portfolio**: [icehugh.github.io](https://icehugh.github.io)
+- 💼 **GitHub**: [@IceHugh](https://github.com/IceHugh)
+
+---
+
+## 📫 Contact
+
+Feel free to reach out for collaborations, open-source projects, or just to say hi!
+
+---
+
+*Last updated: 2026-02-28*

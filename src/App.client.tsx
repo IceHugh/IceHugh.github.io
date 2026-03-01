@@ -11,6 +11,7 @@ import { useGitHubData, getLanguageColor, type GitHubRepo } from './hooks/useGit
 import { ProjectCardSkeleton } from './components/Loading'
 import { ErrorDisplay } from './components/ErrorDisplay'
 import { UserProfile, UserProfileSkeleton } from './components/UserProfile'
+import './i18n/config'
 
 function App() {
   const { t } = useTranslation()

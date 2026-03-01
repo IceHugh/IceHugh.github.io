@@ -1,0 +1,30 @@
+---
+import '../styles/global.css'
+import i18n from '../i18n/config.client'
+import { type SupportedLanguage } from '../i18n/types'
+
+interface Props {
+  title?: string
+  description?: string
+  language?: SupportedLanguage
+}
+
+const { title = 'IceHub - Personal Portfolio', description = 'Full-stack developer passionate about building innovative web applications', language = 'en' } = Astro.props
+
+// 初始化 i18n
+i18n.changeLanguage(language)
+---
+
+<!doctype html>
+<html lang={language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

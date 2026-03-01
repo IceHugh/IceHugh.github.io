@@ -1,15 +1,17 @@
 {
   "name": "icehugh-github-page",
-  "private": true,
-  "version": "1.0.0",
   "type": "module",
+  "version": "2.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "gh-pages -d dist",
+    "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "astro": "^5.17.1",
     "framer-motion": "^12.23.24",
     "i18next": "^25.8.13",
     "i18next-browser-languagedetector": "^8.2.1",
@@ -19,20 +21,14 @@
     "react-i18next": "^16.5.4"
   },
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.4.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.21.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
+    "autoprefixer": "^10.4.27",
     "gh-pages": "^6.3.0",
-    "globals": "^16.0.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17",
-    "typescript": "~5.7.3",
-    "typescript-eslint": "^8.29.0",
-    "vite": "^6.2.2"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.7.3"
   }
 }
